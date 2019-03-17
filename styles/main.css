@@ -1,0 +1,18 @@
+/* Main CSS file for a google homepage */
+
+* {
+  font-family: arial, sans-serif;
+  color: #5F6368; /*somehow doesn't color input elements*/
+}
+
+input {
+  background-color: #f2f2f2;
+}
+
+#footer {
+  background: #f2f2f2;
+}
+
+.footer_layer {
+  border-top: 1px solid #e4e4e4;
+}
