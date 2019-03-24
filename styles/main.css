@@ -1,6 +1,6 @@
 /* Main CSS file for a google homepage */
 
-* {
+body {
   font-family: arial, sans-serif;
   color: #5F6368; /*somehow doesn't color input elements*/
 }
@@ -9,10 +9,26 @@ input {
   background-color: #f2f2f2;
 }
 
+#header{
+  text-align: right;
+}
+
+#header div {
+  display: inline-block;
+}
+
+#title_and_form {
+  text-align: center;
+}
+
 #footer {
   background: #f2f2f2;
 }
 
 .footer_layer {
   border-top: 1px solid #e4e4e4;
+}
+
+.footer_layer div {
+  display: inline-block;
 }
