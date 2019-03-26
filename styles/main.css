@@ -1,5 +1,8 @@
 /* Main CSS file for a google homepage */
 
+/******************************
+ * Everything non #id or .class
+ ******************************/
 body {
   font-family: arial, sans-serif;
   color: #5F6368; /*somehow doesn't color input elements*/
@@ -9,6 +12,9 @@ input {
   background-color: #f2f2f2;
 }
 
+/*****************************
+ * Everything #id
+ *****************************/
 #header{
   text-align: right;
 }
@@ -19,16 +25,31 @@ input {
 
 #title_and_form {
   text-align: center;
+  margin-top: 89px;
 }
 
 #footer {
   background: #f2f2f2;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
 }
 
+/******************************
+ * Everything .class
+ *****************************/
 .footer_layer {
   border-top: 1px solid #e4e4e4;
 }
 
 .footer_layer div {
   display: inline-block;
+}
+
+.footer_left {
+  float: left;
+}
+
+.footer_right {
+  float: right;
 }
