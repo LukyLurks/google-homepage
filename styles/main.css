@@ -24,6 +24,7 @@ input {
   border-radius: 4px;
   border: 1px solid #f2f2f2;
   margin: 11px 4px;
+  font-size: 14px;
 }
 
 input:hover {
@@ -72,9 +73,12 @@ input:hover {
     margin-top: 22px;
     padding: 5px 5px 5px 28px;
     border: 1px solid #dfe1e5;
-    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
     font: 16px arial,sans-serif;
     color: #222;
+}
+
+#searchfield:hover, #searchfield:focus {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);'
 }
 
 #footer {
@@ -86,7 +90,7 @@ input:hover {
 }
 
 #footer a {
-  color: #222;
+  color: #5f6368;
 }
 
 #footer a:hover{
