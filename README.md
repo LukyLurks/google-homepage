@@ -8,7 +8,7 @@ course](https://www.theodinproject.com/courses/web-development-101/lessons/html-
 
 ## Usage
 
-- [Visit this link to see the page](https://lcyne.github.io/google-homepage/)
+- [Visit this link to see the page](https://lukylurks.github.io/google-homepage/)
 - Observe to your heart's content
 
 ## Structure
